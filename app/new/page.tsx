@@ -1,7 +1,9 @@
+import { createPost } from "../actions";
+
 export default function NewPostPage() {
   return (
     <main className="p-4">
-      <form className="grid gap-2">
+      <form action={createPost} className="grid gap-2">
         <h2 className="text-2xl">Add new post</h2>
         <input
           className="bg-slate-50 rounded px-2 py-1"
