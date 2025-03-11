@@ -6,7 +6,7 @@ export default async function HomePage() {
   return (
     <main className="grid gap-8 p-4">
       {posts.map((post) => (
-        <article key={post.id} className="grid p-2 rounded hover:bg-slate-200">
+        <article key={post.id} className="grid p-2 rounded hover:bg-slate-100">
           <span className="text-slate-700">
             {post.createdAt.toLocaleDateString()}
           </span>

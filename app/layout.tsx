@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,6 +28,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className="py-2 px-4 flex justify-between items-center">
+          <h1 className="text-3xl">Instapost</h1>
+          <Link href="/new" className="hover:bg-slate-100 rounded px-2 py-1">
+            Add Post
+          </Link>
+        </header>
         {children}
       </body>
     </html>
