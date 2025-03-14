@@ -6,30 +6,35 @@ async function main() {
     data: [
       {
         title: "Introduction to TypeScript",
+        slug: "introduction-to-typescript",
         content:
           "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It adds static typing to the language, making it more robust and scalable.",
         author: "John Doe",
       },
       {
         title: "Why React is so Popular",
+        slug: "why-react-is-so-popular",
         content:
           "React is a JavaScript library for building user interfaces. Its component-based architecture and virtual DOM make it efficient and easy to develop complex applications.",
         author: "Jane Smith",
       },
       {
         title: "Understanding Next.js",
+        slug: "understanding-nextjs",
         content:
           "Next.js is a React framework that enables server-side rendering and static site generation. It provides great performance optimizations and developer experience.",
         author: "Alice Johnson",
       },
       {
         title: "State Management in React",
+        slug: "state-management-in-react",
         content:
           "There are several ways to manage state in React applications, including useState, useReducer, and external libraries like Redux or Zustand.",
         author: "Bob Williams",
       },
       {
         title: "The Power of TypeScript Generics",
+        slug: "the-power-of-typescript-generics",
         content:
           "Generics in TypeScript allow developers to create reusable and flexible components by enabling types to be passed as parameters.",
         author: "Charlie Brown",

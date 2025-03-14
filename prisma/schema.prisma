@@ -13,6 +13,7 @@ datasource db {
 model Post {
   id        Int      @id @default(autoincrement())
   title     String
+  slug      String   @unique
   content   String
   createdAt DateTime @default(now())
   author    String
